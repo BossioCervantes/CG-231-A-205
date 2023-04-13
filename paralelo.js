@@ -24,7 +24,7 @@ return false;
 
 let disminuir = arreglo[0];
 for (int i = 1; i < arreglo.lenght; i++){
-	if (arreglo[i] < disminuir {
+	if (arreglo[i] < disminuir) {
 	  disminuir = arreglo;
 	}
 }
