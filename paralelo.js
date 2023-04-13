@@ -27,5 +27,6 @@ for (int i = 1; i < arreglo.lenght; i++){
 	if (arreglo[i] < disminuir) {
 	  disminuir = arreglo;
 	}
+	return disminuir;
 }
 
