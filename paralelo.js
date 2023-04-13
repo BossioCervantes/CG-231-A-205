@@ -13,8 +13,10 @@ function vector(v){
    
     if (v.x ==0 && v.y ==0 && v.z !==0)
     {return true;} // Es paralelo entre X y Y
-   
-   }
+    
+return false;
+}
+
 
 /*  Escriba la definición de una función en javascript que reciba
     un arreglo de elementos de tipo entero y retorne el elemento de 
