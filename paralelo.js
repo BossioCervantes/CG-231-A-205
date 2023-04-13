@@ -21,12 +21,14 @@ return false;
 /*  Escriba la definición de una función en javascript que reciba
     un arreglo de elementos de tipo entero y retorne el elemento de 
     menor valor. */
-
+function disminuir_arreglo(arreglo)
+{
 let disminuir = arreglo[0];
 for (int i = 1; i < arreglo.lenght; i++){
 	if (arreglo[i] < disminuir) {
 	  disminuir = arreglo;
 	}
-	return disminuir;
+     }
+   return disminuir;
 }
 
