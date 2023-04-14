@@ -25,7 +25,7 @@ function vector(v){
 function disminuir_numeros(cantidad)
 {
 let disminuir = cantidad[0];
-for (let i = 1; i < cantidad.lenght; i++){
+for (let i = 1; i < cantidad.length; i++){
 	
 	if (cantidad[i] < disminuir){
 		
