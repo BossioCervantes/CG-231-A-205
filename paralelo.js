@@ -5,16 +5,16 @@
 
 function vector(v){   
 	
-    if (v.x !== 0 && v.y ===0 && v.z ===0)
-    {return true;} // Es paralelo en X
+    if (v.y === 0 && v.z === 0) // Es paralelo en X
+    {return true;}
    
-    else if (v.x === 0 && v.y !== 0 && v.z === 0)
-    {return true;} // Es paralelo en Y
+    else if (v.x === 0 && v.z === 0) // Es paralelo en Y
+    {return true;} 
    
-    else if (v.x === 0 && v.y === 0 && v.z !== 0)
-    {return true;} // Es paralelo en Z
+    else if (v.x === 0 && v.y === 0)  // Es paralelo en Z
+    {return true;}
     
-   return false;
+   return false; // No es paralelo
 }
 
 /*  Escriba la definición de una función en javascript que reciba
@@ -22,14 +22,14 @@ function vector(v){
     menor valor. */
 
 
-function disminuir_arreglo(arreglo)
+function disminuir_numeros(cantidad)
 {
-let disminuir = arreglo[0];
-for (let i = 1; i < arreglo.lenght; i++){
+let disminuir = cantidad[0];
+for (let i = 1; i < cantidad.lenght; i++){
 	
-	if (arreglo[i] < disminuir){
+	if (cantidad[i] < disminuir){
 		
-	  disminuir = arreglo[i];
+	  disminuir = cantidad[i];
 	}
      }
    return disminuir;
